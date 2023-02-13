@@ -1,0 +1,78 @@
+{
+  "uid" : "85dd5685c127d1e7",
+  "name" : "POST API testing Using Cypress API Plugin",
+  "fullName" : "POST API testing Using Cypress API Plugin",
+  "historyId" : "b1dc4d5b28c900ce838513ae13365206",
+  "time" : {
+    "start" : 1674703158354,
+    "stop" : 1674703159365,
+    "duration" : 1011
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 201 to equal 200",
+  "statusTrace" : "AssertionError: expected 201 to equal 200\n    at Context.eval (webpack:///./cypress/e2e/apitests/cypress_plugin_api.cy.js:16:33)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 201 to equal 200",
+    "statusTrace" : "AssertionError: expected 201 to equal 200\n    at Context.eval (webpack:///./cypress/e2e/apitests/cypress_plugin_api.cy.js:16:33)",
+    "steps" : [ {
+      "name" : "api (\"POST\"; \"https://reqres.in/api/users\"; \"{ name: 'morpheus', job: 'leader' }\")",
+      "time" : {
+        "start" : 1674703158390,
+        "stop" : 1674703158391,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3d7748284547ba54",
+      "name" : "cypress/e2e/apitests/cypress_plugin_api.cy.js:2023-01-26T03:19:18.959Z",
+      "source" : "3d7748284547ba54.png",
+      "type" : "image/png",
+      "size" : 108384
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "85dd5685c127d1e7.json",
+  "parameterValues" : [ ]
+}

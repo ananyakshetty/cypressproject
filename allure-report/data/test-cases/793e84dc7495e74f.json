@@ -1,0 +1,78 @@
+{
+  "uid" : "793e84dc7495e74f",
+  "name" : "GET API testing Using Cypress API Plugin",
+  "fullName" : "GET API testing Using Cypress API Plugin",
+  "historyId" : "6d9f3c34f2da82351d7651f12089bdec",
+  "time" : {
+    "start" : 1674703157232,
+    "stop" : 1674703158291,
+    "duration" : 1059
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 200 to equal 201",
+  "statusTrace" : "AssertionError: expected 200 to equal 201\n    at Context.eval (webpack:///./cypress/e2e/apitests/cypress_plugin_api.cy.js:6:33)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 200 to equal 201",
+    "statusTrace" : "AssertionError: expected 200 to equal 201\n    at Context.eval (webpack:///./cypress/e2e/apitests/cypress_plugin_api.cy.js:6:33)",
+    "steps" : [ {
+      "name" : "api (\"GET\"; \"https://reqres.in/api/users?page=2\")",
+      "time" : {
+        "start" : 1674703157238,
+        "stop" : 1674703157240,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "77f1ed56d732d9ae",
+      "name" : "cypress/e2e/apitests/cypress_plugin_api.cy.js:2023-01-26T03:19:17.579Z",
+      "source" : "77f1ed56d732d9ae.png",
+      "type" : "image/png",
+      "size" : 111277
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "793e84dc7495e74f.json",
+  "parameterValues" : [ ]
+}

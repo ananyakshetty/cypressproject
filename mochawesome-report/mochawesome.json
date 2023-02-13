@@ -1,0 +1,166 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 2,
+    "pending": 0,
+    "failures": 2,
+    "start": "2023-01-26T03:19:17.164Z",
+    "end": "2023-01-26T03:19:20.611Z",
+    "duration": 3447,
+    "testsRegistered": 4,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "fb9305bf-3c4e-4cab-bd34-45ff2869151d",
+      "title": "",
+      "fullFile": "cypress\\e2e\\apitests\\cypress_plugin_api.cy.js",
+      "file": "cypress\\e2e\\apitests\\cypress_plugin_api.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "96b6442c-804e-4a5a-97d9-1175d1f874af",
+          "title": "API Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "GET API testing Using Cypress API Plugin",
+              "fullTitle": "API Tests GET API testing Using Cypress API Plugin",
+              "timedOut": null,
+              "duration": 1115,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.api(\"GET\", \"https://reqres.in/api/users?page=2\").should(response => {\n  expect(response.status).to.eq(201);\n});",
+              "err": {
+                "message": "AssertionError: expected 200 to equal 201",
+                "estack": "AssertionError: expected 200 to equal 201\n    at Context.eval (webpack:///./cypress/e2e/apitests/cypress_plugin_api.cy.js:6:33)",
+                "diff": "- 200\n+ 201\n"
+              },
+              "uuid": "1b16db1d-4309-4739-aab7-b7923ab230ef",
+              "parentUUID": "96b6442c-804e-4a5a-97d9-1175d1f874af",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "POST API testing Using Cypress API Plugin",
+              "fullTitle": "API Tests POST API testing Using Cypress API Plugin",
+              "timedOut": null,
+              "duration": 1010,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.api(\"POST\", \"https://reqres.in/api/users\", {\n  name: \"morpheus\",\n  job: \"leader\"\n}).should(response => {\n  expect(response.status).to.eq(200);\n});",
+              "err": {
+                "message": "AssertionError: expected 201 to equal 200",
+                "estack": "AssertionError: expected 201 to equal 200\n    at Context.eval (webpack:///./cypress/e2e/apitests/cypress_plugin_api.cy.js:16:33)",
+                "diff": "- 201\n+ 200\n"
+              },
+              "uuid": "4f627754-c053-4240-a939-3d057bcc2964",
+              "parentUUID": "96b6442c-804e-4a5a-97d9-1175d1f874af",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "PUT API testing Using Cypress API Plugin",
+              "fullTitle": "API Tests PUT API testing Using Cypress API Plugin",
+              "timedOut": null,
+              "duration": 583,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.api(\"PUT\", \"https://reqres.in/api/users/2\", {\n  name: \"morpheus\",\n  job: \"zion resident\"\n}).should(response => {\n  expect(response.status).to.eq(200);\n});",
+              "err": {},
+              "uuid": "f9ce95de-dd88-486a-9a5f-5f839a797156",
+              "parentUUID": "96b6442c-804e-4a5a-97d9-1175d1f874af",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "DELETE API testing Using Cypress API Plugin",
+              "fullTitle": "API Tests DELETE API testing Using Cypress API Plugin",
+              "timedOut": null,
+              "duration": 583,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.api(\"DELETE\", \"https://reqres.in/api/users/2\").should(response => {\n  expect(response.status).to.eq(204);\n});",
+              "err": {},
+              "uuid": "6f265999-cedc-4dbf-9a82-2a0fbb09db37",
+              "parentUUID": "96b6442c-804e-4a5a-97d9-1175d1f874af",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f9ce95de-dd88-486a-9a5f-5f839a797156",
+            "6f265999-cedc-4dbf-9a82-2a0fbb09db37"
+          ],
+          "failures": [
+            "1b16db1d-4309-4739-aab7-b7923ab230ef",
+            "4f627754-c053-4240-a939-3d057bcc2964"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 3291,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}

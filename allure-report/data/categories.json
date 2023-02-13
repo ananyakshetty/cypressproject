@@ -1,0 +1,51 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected 200 to equal 201",
+      "children" : [ {
+        "name" : "GET API testing Using Cypress API Plugin",
+        "uid" : "793e84dc7495e74f",
+        "parentUid" : "c18a28188a73f24b708bf96f85ad58fe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1674703157232,
+          "stop" : 1674703158291,
+          "duration" : 1059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c18a28188a73f24b708bf96f85ad58fe"
+    }, {
+      "name" : "expected 201 to equal 200",
+      "children" : [ {
+        "name" : "POST API testing Using Cypress API Plugin",
+        "uid" : "85dd5685c127d1e7",
+        "parentUid" : "1bbac1f298b247fc5e693428bae28ee4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1674703158354,
+          "stop" : 1674703159365,
+          "duration" : 1011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1bbac1f298b247fc5e693428bae28ee4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

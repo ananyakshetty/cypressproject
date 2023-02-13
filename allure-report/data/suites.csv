@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Jan 26 08:49:17 IST 2023","Thu Jan 26 08:49:18 IST 2023","1059","","API Tests","","","","GET API testing Using Cypress API Plugin",""
+"failed","Thu Jan 26 08:49:18 IST 2023","Thu Jan 26 08:49:19 IST 2023","1011","","API Tests","","","","POST API testing Using Cypress API Plugin",""
+"passed","Thu Jan 26 08:49:19 IST 2023","Thu Jan 26 08:49:20 IST 2023","584","","API Tests","","","","DELETE API testing Using Cypress API Plugin",""
+"passed","Thu Jan 26 08:49:19 IST 2023","Thu Jan 26 08:49:19 IST 2023","583","","API Tests","","","","PUT API testing Using Cypress API Plugin",""

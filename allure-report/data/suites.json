@@ -1,0 +1,77 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "API Tests",
+    "children" : [ {
+      "name" : "GET API testing Using Cypress API Plugin",
+      "uid" : "793e84dc7495e74f",
+      "parentUid" : "faa16f93fe4deb7d0d82100941f2eb29",
+      "status" : "failed",
+      "time" : {
+        "start" : 1674703157232,
+        "stop" : 1674703158291,
+        "duration" : 1059
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "POST API testing Using Cypress API Plugin",
+      "uid" : "85dd5685c127d1e7",
+      "parentUid" : "faa16f93fe4deb7d0d82100941f2eb29",
+      "status" : "failed",
+      "time" : {
+        "start" : 1674703158354,
+        "stop" : 1674703159365,
+        "duration" : 1011
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "PUT API testing Using Cypress API Plugin",
+      "uid" : "6d3fe096fef593d0",
+      "parentUid" : "faa16f93fe4deb7d0d82100941f2eb29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674703159383,
+        "stop" : 1674703159966,
+        "duration" : 583
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "DELETE API testing Using Cypress API Plugin",
+      "uid" : "282a43164dae6f43",
+      "parentUid" : "faa16f93fe4deb7d0d82100941f2eb29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674703159989,
+        "stop" : 1674703160573,
+        "duration" : 584
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "faa16f93fe4deb7d0d82100941f2eb29"
+  } ]
+}
