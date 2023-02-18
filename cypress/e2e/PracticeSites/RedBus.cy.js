@@ -1,11 +1,11 @@
 /// <reference types="Cypress"/>
 
-import redBusPage from '../PageObjects/RedBusPage'
+import redBusPage from '../../support/PageObjects/RedBusPage'
 
 describe('Book from Red Bus', function(){
     it('Redbus',function(){
         const RB= new redBusPage()
-        cy.visit("https://www.redbus.com/")
+        cy.visit("https://m.redbus.in/")
         cy.title().should('eq','Book bus tickets online with redBus!')
         var count=0
         cy.get('a').its('length').then((count)=>{

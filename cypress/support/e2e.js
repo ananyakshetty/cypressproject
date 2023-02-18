@@ -19,6 +19,7 @@ import './commands'
 import '@shelex/cypress-allure-plugin';
 import 'cypress-plugin-api';
 import "cypress-real-events";
+import 'cypress-plugin-xhr-toggle'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 

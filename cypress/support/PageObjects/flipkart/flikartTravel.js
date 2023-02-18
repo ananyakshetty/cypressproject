@@ -20,7 +20,7 @@ class flipkartTravel {
     }
 
     selectDate() {
-        return cy.get('button').contains("30")
+        return cy.get('button').contains("28")
     }
 
 }
